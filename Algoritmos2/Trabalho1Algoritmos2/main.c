@@ -1,8 +1,4 @@
-#include<conio2.h>
-#include<stdio.h>
-#include<stdlib.h>
-#include<math.h>
-
+//WINDOWS
 /*************************************************************
 Descrição do Algoritmo:
 Disciplina: Algoritmo II
@@ -14,6 +10,11 @@ RGA: 202115310001
      202111310049
 Data da entrega: 10/08/2022
 **************************************************************/
+
+#include<conio2.h>
+#include<stdio.h>
+#include<stdlib.h>
+#include<math.h>
 
 //programa principal
 int main()
