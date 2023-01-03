@@ -18,7 +18,7 @@ void Listar(char list[][limCharL], int linI, int linF) {
 void Editar(char edit[][limCharL], int linE) {
   clscr;
   char str[limCharL];
-  printf("%d\t%s", linE-1, edit[linE - 1]);
+  printf("%d\t%s", linE, edit[linE - 1]);
   printf("\n");
   printf("\nDigite o novo texto da linha: \n");
   getchar();
