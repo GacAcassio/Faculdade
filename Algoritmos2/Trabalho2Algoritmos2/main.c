@@ -359,6 +359,12 @@ void menuPrincipal()
 			      			system("cls");
 			      			system("COLOR F0");
 			      			listarFuncionario(-23);
+												gotoxy(62,35);
+						printf("Tecle[ENTER] para continuar"); 
+						while(menu!=13)
+						{
+							menu=getch();
+        					}
 			      			break;
 			      		case 2:
 			      			cadastroFuncionario();
